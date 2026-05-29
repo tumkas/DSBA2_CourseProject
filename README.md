@@ -10,7 +10,7 @@ By combining Deep Learning architectures with advanced signal processing and eXp
 ## Features & Methodology
 
 ### 1. Data Processing
-* **Dataset**: PhysioNet/Computing in Cardiology (CinC) Challenge dataset.
+* **Dataset**: [PhysioNet/Computing in Cardiology (CinC) Challenge 2016 dataset](https://physionet.org/content/challenge-2016/1.0.0/).
 * **Signal Cleaning**: Applied a 4th-order Butterworth digital bandpass filter (20–400 Hz) to remove environmental noise and stethoscope friction.
 * **Feature Extraction**: Converted 1D sound waves into 2D Mel-spectrograms (128 Mel bands, capped at 800 Hz) to create high-contrast visual representations of heart sounds.
 
